@@ -1,0 +1,87 @@
+{
+    "doenças":[
+        {
+            "nome": "Gripe",
+            "caracteristicas": {
+                "dor de cabeça": "sim",
+                "garganta inflamada": "sim"
+            }
+        },
+        {
+            "nome": "Mononucleose infecciosa",
+            "caracteristicas": {
+                "cansaço": "sim",
+                "dor de cabeça": "sim"
+            }
+        },
+        {
+            "nome": "Amigdalite",
+            "caracteristicas": {
+                "cansaço": "sim",
+                "garganta inflamada": "sim"
+            }
+        },
+        {
+            "nome": "Estresse",
+            "caracteristicas": {
+                "cansaço": "sim"
+            }
+        },
+        {
+            "nome": "Covid19",
+            "caracteristicas": {
+                "fadiga": "sim",
+                "dor de cabeça": "sim",
+                "dores no corpo": "sim",
+                "ocasionais dores na garganta": "sim",
+                "ocasionais tosse": "sim"
+            }
+        },
+
+        {
+            "nome": "Rinite",
+            "caracteristicas": {
+                "coriza": "sim",
+                "espirro": "sim"
+            }
+        },
+        {
+            "nome": "Sinusite",
+            "caracteristicas": {
+                "dor de cabeça": "sim",
+                "coriza": "sim"
+            }
+        },
+        {
+            "nome": "Dengue",
+            "caracteristicas": {
+                "dor de cabeça": "sim",
+                "garganta inflamada": "sim",
+                "febre": "sim",
+                "dores no corpo": "sim"
+            }
+        },
+        {
+            "nome": "Chicungunha",
+            "caracteristicas": {
+                "dor de cabeça": "sim",
+                "garganta inflamada": "sim",
+                "febre": "sim",
+                "dores nas articulações": "sim"
+            }
+        }
+    ],
+    "caracteristicas":[
+        "dor de cabeça",
+        "garganta inflamada",
+        "febre",
+        "dores nas articulações",
+        "dores no corpo",
+        "coriza",
+        "espirro",
+        "ocasionais dores na garganta",
+        "ocasionais tosse",
+        "fadiga",
+        "cansaço"
+    ]
+}

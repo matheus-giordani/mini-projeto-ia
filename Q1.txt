@@ -1,0 +1,240 @@
+--------------------------------------------------------------------------------
+SOBRE O SISTEMA ESPECIALISTA
+  -- Nome:    SEM NOME
+  -- Autores: 
+
+Operador de maior precedência: conjunção
+Fator de confiança mínimo para aceitação de regra: 50
+
+SOBRE OS ARQUIVOS
+  Arquivo original: C:\USERS\MATHE\DOCUMENTS\CODIGOS_PYTHON\MACHINE_LEARNING\SINTA\Q1.BCM
+  O sistema não possui recursos de ajuda.
+--------------------------------------------------------------------------------
+
+VARIÁVEIS
+
+  animais
+    Valores:
+      albatroz
+      avestruz
+      tigre
+      leopardo
+      zebra
+      pinguim
+      girafa
+      morcego
+      galinha
+      flamingo
+    Tipo:
+      multivalorada
+  ave
+    Tipo:
+      univalorada
+  bom voador
+    Tipo:
+      univalorada
+  bota ovos
+    Tipo:
+      univalorada
+  carnivoro
+    Tipo:
+      univalorada
+  cauda curta
+    Tipo:
+      univalorada
+  come carne
+    Tipo:
+      univalorada
+  cor amarelo tostado
+    Tipo:
+      univalorada
+  cor branca
+    Tipo:
+      univalorada
+  cor de rosa
+    Tipo:
+      univalorada
+  cor preta e branca
+    Tipo:
+      univalorada
+  corpo arredondado
+    Tipo:
+      univalorada
+  da leite
+    Tipo:
+      univalorada
+  dedos pares
+    Tipo:
+      univalorada
+  dentes pontiagudos
+    Tipo:
+      univalorada
+  domestico
+    Tipo:
+      univalorada
+  garras
+    Tipo:
+      univalorada
+  listras pretas
+    Tipo:
+      univalorada
+  mamifero
+    Tipo:
+      univalorada
+  manchas escuras
+    Tipo:
+      univalorada
+  nada
+    Tipo:
+      univalorada
+  olhos frontais
+    Tipo:
+      univalorada
+  penas densas
+    Tipo:
+      univalorada
+  pernas longas
+    Tipo:
+      univalorada
+  pescoço comprido
+    Tipo:
+      univalorada
+  rumina
+    Tipo:
+      univalorada
+  tem casco
+    Tipo:
+      univalorada
+  tem pelo
+    Tipo:
+      univalorada
+  tem penas
+    Tipo:
+      univalorada
+  ungulado
+    Tipo:
+      univalorada
+  voa
+    Tipo:
+      univalorada
+
+OBJETIVOS
+
+  animais
+
+REGRAS
+
+  Regra 1
+    SE tem pelo = Sim
+    ENTÃO mamifero = Sim CNF 100%
+
+  Regra 2
+    SE da leite = Sim
+    ENTÃO mamifero = Sim CNF 100%
+
+  Regra 3
+    SE tem penas = Sim
+    ENTÃO ave = Sim CNF 100%
+
+  Regra 4
+    SE bota ovos = Sim
+    E  voa = Sim
+    ENTÃO ave = Sim CNF 100%
+
+  Regra 5
+    SE mamifero = Sim
+    E  come carne = Sim
+    ENTÃO carnivoro = Sim CNF 100%
+
+  Regra 6
+    SE mamifero = Sim
+    E  dentes pontiagudos = Sim
+    E  garras = Sim
+    E  olhos frontais = Sim
+    ENTÃO carnivoro = Sim CNF 100%
+
+  Regra 7
+    SE mamifero = Sim
+    E  tem casco = Sim
+    ENTÃO ungulado = Sim CNF 100%
+
+  Regra 8
+    SE mamifero = Sim
+    E  rumina = Sim
+    E  dedos pares = Sim
+    ENTÃO ungulado = Sim CNF 100%
+
+  Regra 9
+    SE carnivoro = Sim
+    E  cor amarelo tostado = Sim
+    E  manchas escuras = Sim
+    ENTÃO animais = leopardo CNF 100%
+
+  Regra 10
+    SE carnivoro = Sim
+    E  cor amarelo tostado = Sim
+    E  listras pretas = Sim
+    ENTÃO animais = tigre CNF 100%
+
+  Regra 11
+    SE ungulado = Sim
+    E  pernas longas = Sim
+    E  pescoço comprido = Sim
+    E  cor amarelo tostado = Sim
+    E  manchas escuras = Sim
+    ENTÃO animais = girafa CNF 100%
+
+  Regra 12
+    SE ungulado = Sim
+    E  cor branca = Sim
+    E  listras pretas = Sim
+    ENTÃO animais = zebra CNF 100%
+
+  Regra 13
+    SE ave = Sim
+    E  voa = Não
+    E  pernas longas = Sim
+    E  pescoço comprido = Sim
+    E  cor preta e branca = Sim
+    ENTÃO animais = avestruz CNF 100%
+
+  Regra 14
+    SE ave = Sim
+    E  voa = Não
+    E  nada = Sim
+    E  cor preta e branca = Sim
+    ENTÃO animais = pinguim CNF 100%
+
+  Regra 15
+    SE ave = Sim
+    E  bom voador = Sim
+    ENTÃO animais = albatroz CNF 100%
+
+  Regra 16
+    SE ave = Sim
+    E  corpo arredondado = Sim
+    E  penas densas = Sim
+    E  voa = Não
+    E  domestico = Sim
+    ENTÃO animais = galinha CNF 100%
+
+  Regra 17
+    SE ave = Sim
+    E  pernas longas = Sim
+    E  pescoço comprido = Sim
+    E  cauda curta = Sim
+    E  cor de rosa = Sim
+    ENTÃO animais = flamingo CNF 100%
+
+  Regra 18
+    SE mamifero = Sim
+    E  voa = Sim
+    E  ave = Não
+    ENTÃO animais = morcego CNF 100%
+
+--------------------------------------------------------------------------------
+Gerado com o Expert SINTA versão 1.1b
+(c) 1997 - Universidade Federal do Ceará
+           Laboratório de Inteligência Artificial
+           LIA/UFC
+--------------------------------------------------------------------------------

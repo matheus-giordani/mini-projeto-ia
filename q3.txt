@@ -1,0 +1,106 @@
+--------------------------------------------------------------------------------
+SOBRE O SISTEMA ESPECIALISTA
+  -- Nome:    SEM NOME
+  -- Autores: 
+
+Operador de maior precedência: conjunção
+Fator de confiança mínimo para aceitação de regra: 50
+
+SOBRE OS ARQUIVOS
+  Arquivo original: C:\Users\mathe\Documents\codigos_python\machine_learning\SINTA\q3.bcm
+  O sistema não possui recursos de ajuda.
+--------------------------------------------------------------------------------
+
+VARIÁVEIS
+
+  divida
+    Tipo:
+      univalorada
+  garantia
+    Tipo:
+      univalorada
+  historico de credito
+    Tipo:
+      univalorada
+  renda
+    Valores:
+      media
+      alta
+      baixa
+    Tipo:
+      multivalorada
+  risco
+    Valores:
+      baixo
+      alto
+      moderado
+    Tipo:
+      multivalorada
+
+OBJETIVOS
+
+  risco
+
+REGRAS
+
+  Regra 1
+    SE divida = Sim
+    ENTÃO historico de credito = Sim CNF 100%
+
+  Regra 2
+    SE historico de credito = Não
+    ENTÃO risco = alto CNF 100%
+
+  Regra 3
+    SE garantia = Não
+    E  renda = baixa
+    ENTÃO risco = alto CNF 100%
+
+  Regra 4
+    SE divida = Sim
+    E  garantia = Sim
+    ENTÃO risco = moderado CNF 100%
+
+  Regra 5
+    SE divida = Não
+    E  historico de credito = Sim
+    ENTÃO risco = baixo CNF 100%
+
+  Regra 6
+    SE divida = Não
+    E  garantia = Sim
+    ENTÃO risco = baixo CNF 100%
+
+  Regra 7
+    SE divida = Não
+    E  garantia = Não
+    E  renda = alta
+    ENTÃO risco = moderado CNF 100%
+
+  Regra 8
+    SE divida = Não
+    E  garantia = Não
+    E  renda = media
+    ENTÃO risco = alto CNF 100%
+
+  Regra 9
+    SE divida = Não
+    E  garantia = Não
+    E  renda = baixa
+    ENTÃO risco = alto CNF 100%
+
+PERGUNTAS
+
+  Variável:divida
+     Pergunta:"tem divida?"
+  Variável:garantia
+     Pergunta:"tem garantia?"
+  Variável:historico de credito
+     Pergunta:"tem historico de credito?"
+
+--------------------------------------------------------------------------------
+Gerado com o Expert SINTA versão 1.1b
+(c) 1997 - Universidade Federal do Ceará
+           Laboratório de Inteligência Artificial
+           LIA/UFC
+--------------------------------------------------------------------------------

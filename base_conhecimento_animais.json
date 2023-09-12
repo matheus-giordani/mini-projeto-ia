@@ -1,0 +1,113 @@
+{
+    "animais": [
+        {
+            "nome": "Cachorro",
+            "caracteristicas": {
+                "pelagem": "sim",
+                "voa": "não",
+                "nadar": "sim",
+                "carnivoro": "sim"
+            }
+        },
+        {
+            "nome": "Gato",
+            "caracteristicas": {
+                "pelagem": "sim",
+                "voa": "não",
+                "nadar": "não",
+                "carnivoro": "sim"
+            }
+        },
+        {
+            "nome": "Leopardo",
+            "caracteristicas": {
+                "pelagem": "sim",
+                "voa": "não",
+                "nadar": "sim",
+                "carnivoro": "sim",
+                "manchas escuras": "sim"
+            }
+        },
+        {
+            "nome": "Tigre",
+            "caracteristicas": {
+                "pelagem": "não",
+                "voa": "não",
+                "nadar": "sim",
+                "carnivoro": "sim",
+                "listras pretas": "sim"
+            }
+        },
+        {
+            "nome": "Pássaro",
+            "caracteristicas": {
+                "pelagem": "não",
+                "voa": "sim",
+                "nadar": "não",
+                "carnivoro": "não"
+            }
+        },
+        {
+            "nome": "Girafa",
+            "caracteristicas": {
+                "pelagem": "sim",
+                "voa": "não",
+                "nadar": "não",
+                "carnivoro": "não",
+                "manchas escuras": "sim",
+                "pescoço comprido": "sim"
+            }
+        },
+        {
+            "nome": "Zebra",
+            "caracteristicas": {
+                "pelagem": "sim",
+                "carnivoro": "não",
+                "ungulado": "sim",
+                "cor branca": "sim",
+                "listras pretas": "sim"
+            }
+        },
+        {
+            "nome": "Avestruz",
+            "caracteristicas": {
+                "pelagem": "não",
+                "carnivoro": "não",
+                "ave": "sim",
+                "pescoço comprido": "sim",
+                "voa": "não"
+            }
+        },
+        {
+            "nome": "Pinguim",
+            "caracteristicas": {
+                "ave": "sim",
+                "voa": "não",
+                "nadar": "sim",
+                "preto e branco": "sim"
+            }
+        },
+        {
+            "nome": "Morcego",
+            "caracteristicas": {
+                "ave": "não",
+                "voa": "sim",
+                "nadar": "não",
+                "carnivoro": "sim"
+            }
+        }
+    ],
+    "caracteristicas": [
+        "ave",
+        "pelagem",
+        "voa",
+        "nadar",
+        "carnivoro",
+        "preto e branco",
+        "manchas escuras",
+        "listras pretas",
+        "ungulado",
+        "cor branca",
+        "pescoço comprido"
+    ]
+}
